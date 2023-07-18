@@ -1,0 +1,33 @@
+.intro-text{
+    width: 10%;
+    height: 5%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+.intro-appear{
+    opacity: 1;
+    transform: translateY(0px);
+    color:coral;
+    font-size: 15px;
+    font-style: oblique;
+}
+header{
+    background-image: url(./background-img.jpg);
+}
+
+.intro-content{
+    display: flex;
+}
+video{
+    width: 50%;
+    height: auto;
+    display: inline;
+    margin: 0 auto;
+}
+video::-webkit-media-controls-play-button {
+color: pink;
+}
+video::-webkit-media-controls-time-remaining-display {
+    color: pink;
+    }
